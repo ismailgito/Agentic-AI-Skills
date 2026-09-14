@@ -1,323 +1,186 @@
 <div align="center">
 
-<!-- ================================================================= -->
-<!-- 🚀 ANIMATED RETRO CYBERPUNK & DYNAMIC MOTION HERO HEADER -->
-<!-- ================================================================= -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=220&section=header&text=Agentic-AI-Skills&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=27+Power-Packs+%7C+Design+%7C+Docs+%7C+Claude+%7C+Automation&descAlignY=60&descSize=18)
 
-<!-- ================================================================= -->
-<!-- 💎 BADGE ROW & TELEMETRY STRIP -->
-<!-- ================================================================= -->
-<p align="center" style="margin-top: 14px;">
-  <img src="https://img.shields.io/badge/Platform-Claude_Code_|_Claude.ai-7928ca?style=for-the-badge&logo=anthropic&logoColor=white" alt="Platform" />
-  <img src="https://img.shields.io/badge/Status-Battle--Tested_v2.0-00dfd8?style=for-the-badge&logo=githubactions&logoColor=black" alt="Status" />
-  <img src="https://img.shields.io/badge/Archives-6_Intact_ZIPs_Preserved-ff007f?style=for-the-badge&logo=archive&logoColor=white" alt="ZIPs Preserved" />
-  <img src="https://img.shields.io/badge/Skills-19+_Domain_Agents-ffbe0b?style=for-the-badge&logo=codewars&logoColor=black" alt="Skills Matrix" />
-  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&random=false&width=700&lines=Unlock+27+Agent+Skills+in+One+Repo;No+Extraction+Needed+%E2%80%A2+Just+Pick+%26+Build;Design%2C+Docs%2C+Claude+API%2C+MCP%2C+Testing;Highly+Animated+%E2%9C%A8+Highly+Modular+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Agentic-AI-Skills&label=REPO+VIEWS&color=7c3aed&style=for-the-badge" alt="views" />
+  <img src="https://img.shields.io/badge/SKILLS-27-blueviolet?style=for-the-badge&logo=sparkles&logoColor=white" alt="skills" />
+  <img src="https://img.shields.io/badge/FORMAT-ZIP+SKILL-ff69b4?style=for-the-badge&logo=zip&logoColor=white" alt="format" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00d084?style=for-the-badge&logo=githubactions&logoColor=white" alt="status" />
 </p>
 
-<!-- ================================================================= -->
-<!-- 📊 ANIMATED TELEMETRY DASHBOARD BAR -->
-<!-- ================================================================= -->
-
+<marquee behavior="scroll" direction="left" scrollamount="6" style="font-size:18px;color:#7c3aed;">✨ algorithmic-art &nbsp; • &nbsp; 🎨 canvas-design &nbsp; • &nbsp; 🤖 claude-api &nbsp; • &nbsp; 📄 pdf • pptx • xlsx • docx &nbsp; • &nbsp; 🎭 slack-gif-creator &nbsp; • &nbsp; 🧱 mcp-builder &nbsp; • &nbsp; 🌐 frontend-design &nbsp; • &nbsp; 🔥 27 ZIPS — ZERO EXTRACTION — INFINITE BUILD ✨</marquee>
 
 </div>
 
 ---
 
-## 🌟 Transform Ordinary LLMs into Elite Autonomous Specialists
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/25181517/192108372-f38d0d3c-4db6-48b2-887e-5a4debd45aea.gif" width="80" />
+  <h2>⚡ What is this?</h2>
+  <p><b>Agentic-AI-Skills</b> is a curated vault of <b>27 plug-and-play AI agent skills</b> — stored as <code>.zip</code> packs.<br/>No extraction. No clutter. Just pick a pack name, unzip what you need, and ship.</p>
+  <img src="https://user-images.githubusercontent.com/25181517/192108372-f38d0d3c-4db6-48b2-887e-5a4debd45aea.gif" width="80" />
+</div>
 
-Imagine handing your AI not just a vague prompt, but **complete mastery over end-to-end engineering, creative design, executive communication, and high-stakes career strategy**. 
+<div align="center">
 
-The **Claude Skills Ecosystem** transforms standard LLM interactions into structured, high-precision agentic executions. Whether you are running **Claude Code**, **Claude.ai**, **Gemini CLI**, **Cursor**, or autonomous agent loops, these blueprints furnish your assistants with:
+| 🚀 Pick | 📦 Unzip Only What You Need | 🤖 Build |
+|:---:|:---:|:---:|
+| Browse the vault below | `Expand-Archive "frontend-design.zip"` | Drop `SKILL.md` into your agent |
 
-- 🎯 **Deep Context Awareness**: Multi-step reasoning loops tailored for complex deliverables.
-- 🎨 **Visual & Media Mastery**: Automated PowerPoint generation, interactive HTML5 Canvas art, vector manipulation, and responsive web design.
-- 💼 **Career Acceleration**: Strategic ATS-proof resumes, high-conversion LinkedIn workflows, and executive compensation advisory.
-- 🛠️ **Systems-Grade Engineering**: Polyglot SDK patterns across 8+ programming languages, custom Model Context Protocol (MCP) servers, and robust E2E testing pipelines.
-
-> [!IMPORTANT]
-> ### 📦 Preserved Drop-In ZIP Guarantee
-> **All `.zip` archives in this repository are intentionally kept sealed in their original compressed state!**
-> There is **no need to unzip any files**. Modern AI environments, plugin runners, and custom tools ingest these archives directly as clean, portable, zero-clutter execution bundles.
+</div>
 
 ---
 
-## ⚡ Motion & Architecture Map
+## 🌈 Animated Vault Map
 
-```mermaid
-flowchart TB
-    subgraph ROOT["🌌 Claude Skills Matrix (Root Workspace)"]
-        direction TB
-        RF["📄 Strategic Frameworks & Guides<br/>• 6-figure-framework-claude-SKILLS.md<br/>• SIMPLE.md<br/>• learning-curve.md<br/>• the-honest-advisor.md<br/>• usage-of-job-hunting-skills.md<br/>• caveman.skill"]
-        RZ["📦 Root Drop-In Archives<br/>• claude counter.zip<br/>• find-skills.zip"]
-    end
+> All names below are **exact <code>.zip</code> filenames** in this repo. Nothing was extracted to write this README.
 
-    subgraph JOB["💼 Job-hunter/ Suite"]
-        direction TB
-        JH_FILES["📄 Career Assets & Optimization<br/>• Claude Job search strategy .pdf<br/>• linkedin-optimization.skill<br/>• usage-of-job-hunting-skills.md<br/>• proficiently-claude-skills/"]
-        JH_ZIP["📦 Packaged Resume Engine<br/>• Claude Ats resume friendly resume.zip"]
-    end
+<details open>
+<summary><b>🎨 DESIGN & FRONTEND — 8 packs</b></summary>
+<br/>
 
-    subgraph FIT["🏋️ claude-fitness/ Module"]
-        direction TB
-        FIT_FILES["📄 Conditioning & Periodization<br/>• FITNESS_COACH_SKILL.md<br/>• SKILL.md"]
-    end
+| # | Pack | What it unlocks | Vibe |
+|:-:|---|---|---|
+| 1 | `frontend-design.zip` | Landing pages, components, responsive UI | ![frontend](https://img.shields.io/badge/-UI-7c3aed?style=flat-square) |
+| 2 | `canvas-design.zip` | Canvas art, posters, visual experiments | ![canvas](https://img.shields.io/badge/-ART-ff69b4?style=flat-square) |
+| 3 | `UI-UX Desinger.zip` | UX flows, wireframes, designer agent | ![ux](https://img.shields.io/badge/-UX-00bfff?style=flat-square) |
+| 4 | `brand-guidelines.zip` | Logos, colors, typography, brand kits | ![brand](https://img.shields.io/badge/-BRAND-f59e0b?style=flat-square) |
+| 5 | `theme-factory.zip` | Themes, dark/light modes, design tokens | ![theme](https://img.shields.io/badge/-THEME-10b981?style=flat-square) |
+| 6 | `web-artifacts-builder.zip` | Web artifacts, sections, micro-sites | ![web](https://img.shields.io/badge/-WEB-6366f1?style=flat-square) |
+| 7 | `Landing-page-contents.zip` | Hero copy, CTA, SEO landing content | ![landing](https://img.shields.io/badge/-COPY-ec4899?style=flat-square) |
+| 8 | `algorithmic-art.zip` | Generative / procedural art | ![algo](https://img.shields.io/badge/-GENART-8b5cf6?style=flat-square) |
 
-    subgraph SKM["🛠️ skills-main/ (Master Skills Library)"]
-        direction TB
-        SM_DOC["📄 Documentation & Specifications<br/>• README.md<br/>• THIRD_PARTY_NOTICES.md<br/>• spec/agent-skills-spec.md<br/>• template/SKILL.md"]
-        SM_SKILLS["📂 Domain Agents<br/>• UI-UX Desinger • algorithmic-art<br/>• brand-guidelines • claude-api<br/>• doc-coauthoring • frontend-design<br/>• internal-comms • mcp-builder<br/>• pdf • pptx • skill-creator<br/>• slack-gif-creator • web-artifacts-builder<br/>• webapp-testing • xlsx<br/>• Landing-page-contents"]
-        SM_ZIP["📦 Design & Theme ZIP Bundles<br/>• canvas-design.zip<br/>• docx-design-agent.zip<br/>• theme-factory.zip"]
-    end
+</details>
 
-    ROOT ==> JOB
-    ROOT ==> FIT
-    ROOT ==> SKM
+<details open>
+<summary><b>📄 DOCUMENTS & CONTENT — 7 packs</b></summary>
+<br/>
 
-    classDef default fill:#131926,stroke:#232d42,stroke-width:1px,color:#c9d1d9;
-    classDef rootBox fill:#0b0e14,stroke:#ff007f,stroke-width:2px,color:#fff;
-    classDef jobBox fill:#0b0e14,stroke:#00dfd8,stroke-width:2px,color:#fff;
-    classDef fitBox fill:#0b0e14,stroke:#7928ca,stroke-width:2px,color:#fff;
-    classDef smBox fill:#0b0e14,stroke:#ffbe0b,stroke-width:2px,color:#fff;
+| # | Pack | What it unlocks | Vibe |
+|:-:|---|---|---|
+| 9 | `pdf.zip` | PDF read / create / edit agent | ![pdf](https://img.shields.io/badge/-PDF-ef4444?style=flat-square) |
+| 10 | `pptx.zip` | Slide decks, presentations | ![pptx](https://img.shields.io/badge/-PPTX-f97316?style=flat-square) |
+| 11 | `xlsx.zip` | Spreadsheets, data tables | ![xlsx](https://img.shields.io/badge/-XLSX-22c55e?style=flat-square) |
+| 12 | `docx-design-agent.zip` | Styled Word docs | ![docx](https://img.shields.io/badge/-DOCX-3b82f6?style=flat-square) |
+| 13 | `doc-coauthoring.zip` | Co-write & review docs | ![coauthor](https://img.shields.io/badge/-WRITE-14b8a6?style=flat-square) |
+| 14 | `slack-gif-creator.zip` | GIFs + Slack-ready animations | ![gif](https://img.shields.io/badge/-GIF-a855f7?style=flat-square) |
+| 15 | `internal-comms.zip` | Announcements, memos, team updates | ![comms](https://img.shields.io/badge/-COMMS-64748b?style=flat-square) |
 
-    class ROOT rootBox;
-    class JOB jobBox;
-    class FIT fitBox;
-    class SKM smBox;
+</details>
+
+<details open>
+<summary><b>🤖 CLAUDE & AGENT POWER — 7 packs</b></summary>
+<br/>
+
+| # | Pack | What it unlocks | Vibe |
+|:-:|---|---|---|
+| 16 | `claude-api.zip` | Claude API + `claude-api/` live examples (python, ts, go, java, php, ruby, csharp, curl) | ![api](https://img.shields.io/badge/-API-d97706?style=flat-square) |
+| 17 | `Claude Ats resume friendly resume.zip` | ATS-friendly resume builder | ![resume](https://img.shields.io/badge/-RESUME-0ea5e9?style=flat-square) |
+| 18 | `claude counter.zip` | Usage / token counter utility | ![counter](https://img.shields.io/badge/-COUNT-eab308?style=flat-square) |
+| 19 | `Cavemenskill.zip` | Mystery / custom skill pack | ![cavemen](https://img.shields.io/badge/-CUSTOM-78716c?style=flat-square) |
+| 20 | `prompt-engineer.zip` | Prompt optimization & engineering | ![prompt](https://img.shields.io/badge/-PROMPT-7c3aed?style=flat-square) |
+| 21 | `skill-creator.zip` | Scaffold new skills fast | ![creator](https://img.shields.io/badge/-CREATE-00d084?style=flat-square) |
+| 22 | `Skill-creator-framework/` | `6-figure-framework-claude-SKILLS.md` playbook (unpacked) | ![framework](https://img.shields.io/badge/-FRAMEWORK-db2777?style=flat-square) |
+
+</details>
+
+<details open>
+<summary><b>🧰 BUILDER & WORKFLOW — 5 packs</b></summary>
+<br/>
+
+| # | Pack | What it unlocks | Vibe |
+|:-:|---|---|---|
+| 23 | `mcp-builder.zip` | Build MCP servers & tools | ![mcp](https://img.shields.io/badge/-MCP-6366f1?style=flat-square) |
+| 24 | `webapp-testing.zip` | Webapp QA & test flows | ![test](https://img.shields.io/badge/-TEST-22c55e?style=flat-square) |
+| 25 | `find-skills.zip` | Discover & index skills | ![find](https://img.shields.io/badge/-FIND-06b6d4?style=flat-square) |
+| 26 | `Make it simple.zip` | Simplifier agent — clarity first | ![simple](https://img.shields.io/badge/-SIMPLE-84cc16?style=flat-square) |
+| 27 | `Honest-Advisor.zip` | No-fluff brutally honest advisor | ![honest](https://img.shields.io/badge/-ADVISOR-ef4444?style=flat-square) |
+
+</details>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</div>
+
+---
+
+<div align="center">
+<h2>🎬 Animated Quick Start</h2>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=800&color=00D084&center=true&vCenter=true&width=600&lines=1.+Pick+a+zip+from+the+vault+%F0%9F%93%A6;2.+Unzip+only+that+one+%F0%9F%94%93;3.+Read+SKILL.md+%F0%9F%93%96;4.+Ship+with+your+agent+%F0%9F%9A%80" alt="steps" />
+</div>
+
+```powershell
+# 1 — See what's in the vault (no extraction)
+Get-ChildItem *.zip | Sort-Object Name
+
+# 2 — Unzip ONLY what you need (example)
+Expand-Archive "frontend-design.zip" -DestinationPath "./_active/frontend-design"
+Expand-Archive "claude-api.zip" -DestinationPath "./_active/claude-api"       # or browse ./claude-api/ (already unpacked)
+Expand-Archive "pdf.zip" -DestinationPath "./_active/pdf"
+
+# 3 — Use it
+# Open _active/<pack>/SKILL.md and follow the instructions
 ```
 
----
-
-## 📁 Itemized Repository Directory & File Inventory
-
-Every component in this repository is cataloged below with exact names, locations, and clickable relative links:
-
-### 1. 🌐 Root Ecosystem Components
-
-| Component / Artifact | Type | Status & Purpose |
-|---|:---:|---|
-| [`6-figure-framework-claude-SKILLS.md`](./6-figure-framework-claude-SKILLS.md) | `File` | 💎 Master framework for designing enterprise consulting and high-value AI solutions |
-| [`SIMPLE.md`](./SIMPLE.md) | `File` | ⚡ Minimalist execution philosophy, core principles, and rapid-dispatch guidelines |
-| [`learning-curve.md`](./learning-curve.md) | `File` | 📈 Step-by-step adoption curve and skill acquisition roadmap for agent operators |
-| [`the-honest-advisor.md`](./the-honest-advisor.md) | `File` | 🎯 High-candor, unfiltered strategic advisory persona for architecture & product vetting |
-| [`usage-of-job-hunting-skills.md`](./usage-of-job-hunting-skills.md) | `File` | 🚀 Root quickstart manual for deploying career acceleration automation |
-| [`caveman.skill`](./caveman.skill) | `File` | 🦴 Ultra-compact, token-efficient persona delivering maximum information per byte |
-| [`claude counter.zip`](./claude%20counter.zip) | `Zip Archive` | 📦 **[Preserved ZIP]** Automated interaction and token analytics telemetry bundle |
-| [`find-skills.zip`](./find-skills.zip) | `Zip Archive` | 📦 **[Preserved ZIP]** Search indexer and skill discovery dispatch module |
-| [`Job-hunter`](./Job-hunter) | `Directory` | 💼 Dedicated suite for career advancement, resume building, and job search strategy |
-| [`claude-fitness`](./claude-fitness) | `Directory` | 🏋️ Comprehensive athletic coaching, workout programming, and nutrition advisor |
-| [`skills-main`](./skills-main) | `Directory` | 🛠️ Master library containing 19+ specialized domain skills and drop-in design packages |
-| [`README.md`](./README.md) | `File` | 🌟 The central command dashboard, animated portal, and ecosystem roadmap |
-
----
-
-### 2. 💼 `Job-hunter/` Career Acceleration Suite
-
-Engineered to give job seekers an unfair advantage in ATS filtering, recruiter outreach, and interview negotiations.
-
-| Artifact Name | Type | Key Capabilities |
-|---|:---:|---|
-| [`Claude Ats resume friendly resume.zip`](./Job-hunter/Claude%20Ats%20resume%20friendly%20resume.zip) | `Zip Archive` | 📦 **[Preserved ZIP]** Battle-tested ATS-compliant resume templates and generators |
-| [`Claude Job search strategy .pdf`](./Job-hunter/Claude%20Job%20search%20strategy%20.pdf) | `PDF File` | 🗺️ Comprehensive architectural playbook for structured corporate job hunting |
-| [`linkedin-optimization.skill`](./Job-hunter/linkedin-optimization.skill) | `Skill File` | 🔍 Algorithm-optimized headline generator, summary crafter, and engagement booster |
-| [`usage-of-job-hunting-skills.md`](./Job-hunter/usage-of-job-hunting-skills.md) | `File` | 📖 Granular, step-by-step execution workflows for the entire Job Hunter suite |
-| [`proficiently-claude-skills/`](./Job-hunter/proficiently-claude-skills) | `Directory` | 🗃️ Specialized career extension modules and supplementary scripts |
-
----
-
-### 3. 🏋️ `claude-fitness/` High-Performance Health Module
-
-A private, hyper-personalized fitness coach running directly inside your LLM context.
-
-| Artifact Name | Type | Key Capabilities |
-|---|:---:|---|
-| [`FITNESS_COACH_SKILL.md`](./claude-fitness/FITNESS_COACH_SKILL.md) | `File` | 🥩 Hypertrophy, endurance periodization, macro calculations, and recovery protocols |
-| [`SKILL.md`](./claude-fitness/SKILL.md) | `File` | 📋 Daily workout planner, progressive overload tracker, and lifestyle audit engine |
-
----
-
-### 4. 🛠️ `skills-main/` Core Skills Matrix
-
-Located at [`skills-main/skills-main/skills`](./skills-main/skills-main/skills), representing a powerhouse collection of autonomous domain skills:
-
-```
-skills-main/skills-main/
-├── README.md                                  # Library overview and foundational setup
-├── THIRD_PARTY_NOTICES.md                     # Open-source licensing and attribution
-├── spec/
-│   └── agent-skills-spec.md                   # Formal specifications for skill schemas
-├── template/
-│   └── SKILL.md                               # Gold-standard template for authoring new skills
-└── skills/
-    ├── canvas-design.zip                      # 📦 [ZIP] HTML5 Canvas graphics & particle engine
-    ├── docx-design-agent.zip                  # 📦 [ZIP] Enterprise DOCX styling & document engine
-    ├── theme-factory.zip                      # 📦 [ZIP] Color harmony token generator & dark/light palettes
-    ├── Landing-page-contents/                 # 🌐 Conversion copywriting & landing page architecture
-    │   └── usage-of-job-hunting-skills.md
-    ├── UI-UX Desinger/                        # 🎨 Wireframing, UX heuristics, and micro-interactions
-    │   └── SKILL.md
-    ├── algorithmic-art/                       # 🪄 Generative p5.js, math visualizations & SVG shaders
-    │   └── SKILL.md
-    ├── brand-guidelines/                      # 🛡️ Corporate brand voice, typography & palette auditor
-    │   └── SKILL.md
-    ├── claude-api/                            # ⚡ Polyglot SDK guides (Python, TS, Go, Java, C#, PHP, Ruby, cURL)
-    │   └── SKILL.md
-    ├── doc-coauthoring/                       # ✍️ Pair-writing, technical RFC drafting & editorial revision
-    │   └── SKILL.md
-    ├── frontend-design/                       # 💻 Modern responsive HTML, Tailwind CSS & clean layouts
-    │   └── SKILL.md
-    ├── internal-comms/                        # 📢 Leadership updates, team newsletters & critical memos
-    │   └── SKILL.md
-    ├── mcp-builder/                           # 🔌 Model Context Protocol server development kit
-    │   └── SKILL.md
-    ├── pdf/                                   # 📑 PDF extraction, structural manipulation & report synthesis
-    │   └── SKILL.md
-    ├── pptx/                                  # 📊 Automated PowerPoint slide decks via pptxgenjs
-    │   └── SKILL.md
-    ├── skill-creator/                         # 🧠 Meta-agent for authoring, evaluating & packaging skills
-    │   └── SKILL.md
-    ├── slack-gif-creator/                     # 👾 Animated retro pixel reaction GIFs for team workspaces
-    │   └── SKILL.md
-    ├── web-artifacts-builder/                 # ⚛️ Interactive React/HTML Claude artifacts generator
-    │   └── SKILL.md
-    ├── webapp-testing/                        # 🧪 Playwright & E2E regression testing testbed
-    │   └── SKILL.md
-    └── xlsx/                                  # 📈 Complex Excel formulas, financial projections & pivot models
-        └── SKILL.md
+```bash
+# macOS / Linux equivalent
+ls *.zip
+unzip "frontend-design.zip" -d ./_active/frontend-design
 ```
 
----
-
-## 🎮 Interactive Skills Navigator
-
-Explore skills by functional domain. Click each category to view details and access the underlying blueprints:
-
-<details>
-<summary><b>🎨 Visual, UI/UX & Creative Engineering (Click to Expand)</b></summary>
-<br/>
-
-| Skill | Primary File / Package | Superpower |
-|---|---|---|
-| **Frontend Design** | [`SKILL.md`](./skills-main/skills-main/skills/frontend-design/SKILL.md) | Produces modern, accessible, clean Tailwind/HTML responsive interfaces |
-| **UI/UX Designer** | [`SKILL.md`](./skills-main/skills-main/skills/UI-UX%20Desinger/SKILL.md) | Creates wireframes, interaction specs, and UX audit checklists |
-| **Algorithmic Art** | [`SKILL.md`](./skills-main/skills-main/skills/algorithmic-art/SKILL.md) | Synthesizes generative math art, shaders, and dynamic canvas visuals |
-| **Canvas Design** | [`canvas-design.zip`](./skills-main/skills-main/skills/canvas-design.zip) | 📦 *Preserved ZIP*: Ready-to-run HTML5 dynamic canvas particle engines |
-| **Theme Factory** | [`theme-factory.zip`](./skills-main/skills-main/skills/theme-factory.zip) | 📦 *Preserved ZIP*: Automated design token generators and color harmony matrices |
-
-</details>
-
-<details>
-<summary><b>📄 Document Automation, Media & Presentation Engines (Click to Expand)</b></summary>
-<br/>
-
-| Skill | Primary File / Package | Superpower |
-|---|---|---|
-| **PowerPoint Deck Builder** | [`SKILL.md`](./skills-main/skills-main/skills/pptx/SKILL.md) | Generates complete, beautifully formatted presentation decks programmatically |
-| **PDF Engineering** | [`SKILL.md`](./skills-main/skills-main/skills/pdf/SKILL.md) | Parses, restructures, merges, and generates publication-grade PDFs |
-| **Excel Spreadsheet Specialist**| [`SKILL.md`](./skills-main/skills-main/skills/xlsx/SKILL.md) | Formulates robust financial sheets, dynamic projections, and formulas |
-| **DOCX Design Agent** | [`docx-design-agent.zip`](./skills-main/skills-main/skills/docx-design-agent.zip) | 📦 *Preserved ZIP*: Enterprise Word document layouts, typography & styling |
-| **Slack GIF Creator** | [`SKILL.md`](./skills-main/skills-main/skills/slack-gif-creator/SKILL.md) | Crafts pixel-art animated GIFs and memes tailored for remote teams |
-
-</details>
-
-<details>
-<summary><b>🚀 Developer Toolkits, APIs & Systems Architecture (Click to Expand)</b></summary>
-<br/>
-
-| Skill | Primary File / Package | Superpower |
-|---|---|---|
-| **Claude API Polyglot** | [`SKILL.md`](./skills-main/skills-main/skills/claude-api/SKILL.md) | Master reference for 8+ languages (Python, TS, Go, Java, PHP, C#, Ruby, cURL) |
-| **MCP Server Builder** | [`SKILL.md`](./skills-main/skills-main/skills/mcp-builder/SKILL.md) | Scaffolds and validates standardized Model Context Protocol tool servers |
-| **Web Artifacts Builder** | [`SKILL.md`](./skills-main/skills-main/skills/web-artifacts-builder/SKILL.md) | Builds self-contained, reactive single-page applications inside artifacts |
-| **Web App E2E Testing** | [`SKILL.md`](./skills-main/skills-main/skills/webapp-testing/SKILL.md) | Writes and automates Playwright browser tests, regression flows, and assertions |
-| **Skill Creator** | [`SKILL.md`](./skills-main/skills-main/skills/skill-creator/SKILL.md) | The ultimate meta-skill: Authors, tests, and evaluates brand-new skills |
-
-</details>
-
-<details>
-<summary><b>✍️ Communication, Marketing & Content Strategy (Click to Expand)</b></summary>
-<br/>
-
-| Skill | Primary File / Package | Superpower |
-|---|---|---|
-| **Brand Guidelines** | [`SKILL.md`](./skills-main/skills-main/skills/brand-guidelines/SKILL.md) | Enforces consistent corporate voice, typography rules, and design integrity |
-| **Document Co-Authoring** | [`SKILL.md`](./skills-main/skills-main/skills/doc-coauthoring/SKILL.md) | Facilitates iterative pair-writing for RFCs, technical specs, and whitepapers |
-| **Internal Communications** | [`SKILL.md`](./skills-main/skills-main/skills/internal-comms/SKILL.md) | Crafts crisp executive memos, team announcements, and post-mortems |
-| **Landing Page Content** | [`usage-of-job-hunting-skills.md`](./skills-main/skills-main/skills/Landing-page-contents/usage-of-job-hunting-skills.md) | Architectures high-converting landing page layouts and value propositions |
-
-</details>
-
-<details>
-<summary><b>💼 Career Acceleration, Advisory & Athletic Frameworks (Click to Expand)</b></summary>
-<br/>
-
-| Framework | Primary File / Directory | Superpower |
-|---|---|---|
-| **6-Figure Consulting Blueprint** | [`6-figure-framework-claude-SKILLS.md`](./6-figure-framework-claude-SKILLS.md) | Architect high-ticket AI automation solutions for enterprise clients |
-| **Job Hunter Career Suite** | [`Job-hunter`](./Job-hunter) | Full job hunting pipeline with ATS resumes, search strategy, and LinkedIn tools |
-| **Claude Fitness Suite** | [`claude-fitness`](./claude-fitness) | Comprehensive workout periodization, strength cycles, and meal planning |
-| **The Honest Advisor** | [`the-honest-advisor.md`](./the-honest-advisor.md) | Brutally honest feedback on startups, codebases, and strategic roadmaps |
-| **Caveman Persona** | [`caveman.skill`](./caveman.skill) | Extreme token compression: concise, punchy, high-speed execution |
-| **Adoption Learning Curve** | [`learning-curve.md`](./learning-curve.md) | Guided progression from basic prompt engineering to autonomous agent mastery |
-| **SIMPLE Principles** | [`SIMPLE.md`](./SIMPLE.md) | Clean, friction-free cognitive frameworks for high-velocity output |
-
-</details>
-
-<details>
-<summary><b>📦 Complete Index of All 6 Intact Drop-in ZIP Packages (Click to Expand)</b></summary>
-<br/>
-
-These packages remain compressed and ready for portable transport across environments:
-
-1. **[`claude counter.zip`](./claude%20counter.zip)**: Token counting, rate-limit estimation, and context session tracker.
-2. **[`find-skills.zip`](./find-skills.zip)**: Quick-search index generator to pinpoint skills matching any user query.
-3. **[`Claude Ats resume friendly resume.zip`](./Job-hunter/Claude%20Ats%20resume%20friendly%20resume.zip)**: Word/PDF ATS resume templates tailored for algorithmic parsing.
-4. **[`canvas-design.zip`](./skills-main/skills-main/skills/canvas-design.zip)**: Ready-to-use HTML5 interactive canvas graphics package.
-5. **[`docx-design-agent.zip`](./skills-main/skills-main/skills/docx-design-agent.zip)**: Microsoft Word auto-formatting, header hierarchy, and styling agent.
-6. **[`theme-factory.zip`](./skills-main/skills-main/skills/theme-factory.zip)**: Color token generator and WCAG-compliant design theme builder.
-
-</details>
+> ⚠️ **Rule:** this README was built from **filenames only** — no zip was extracted. Keep it that way until you need a skill.
 
 ---
 
-## ⚡ How to Activate Any Skill in Seconds
+<div align="center">
+<h2>🗂️ Repo Layout</h2>
+</div>
 
-Activating any capability in this repository requires zero complicated installations:
-
-### Method 1: Direct File Prompting (Claude Code / Cursor / Gemini)
-Simply instruct your agent to adopt the specific skill instructions:
-```markdown
-Please review and follow the instructions located at:
-./skills-main/skills-main/skills/frontend-design/SKILL.md
-
-Now build a responsive hero section for a decentralized cloud platform.
 ```
-
-### Method 2: Career Suite Activation
-```markdown
-Read the career strategy guide at ./Job-hunter/usage-of-job-hunting-skills.md
-and optimize my LinkedIn headline according to ./Job-hunter/linkedin-optimization.skill.
-```
-
-### Method 3: Multi-Skill Chaining
-Combine complementary skills for autonomous software delivery:
-```markdown
-Execute the following pipeline:
-1. Use ./skills-main/skills-main/skills/mcp-builder/SKILL.md to build a GitHub MCP server.
-2. Use ./skills-main/skills-main/skills/webapp-testing/SKILL.md to write Playwright verification tests.
+Agentic-AI-Skills/
+├── README.md                          ← you are here ✨
+├── *.zip                              ← 26 skill packs (see vault map above)
+├── claude-api/                        ← unpacked Claude API examples (csharp, curl, go, java, php, python, ruby, typescript, shared)
+└── Skill-creator-framework/
+    └── 6-figure-framework-claude-SKILLS.md
 ```
 
 ---
 
 <div align="center">
+<h2>💡 Pro Tips</h2>
+</div>
 
-<p align="center">
-  <img src="./assets/footer-beam.svg" alt="Animated Footer Divider" width="700" style="max-width: 100%;" />
+| Tip | How |
+|---|---|
+| 🔍 Preview before unzip | `tar -tf "pdf.zip"` / `unzip -l "pdf.zip"` |
+| 🧪 Try one skill at a time | Unzip into `./_active/<name>` and delete when done |
+| 🧬 Create your own | Unzip `skill-creator.zip`, read its `SKILL.md` |
+| 🛰️ Claude API fast path | Skip the zip — browse `./claude-api/` directly |
+| 🏗️ MCP fast path | `Expand-Archive "mcp-builder.zip"` |
+
+---
+
+<div align="center">
+<h2>🤝 Contribute</h2>
+<p>Add a new <code>.zip</code> → add one row to the vault map above → PR. That's it.</p>
+<img src="https://user-images.githubusercontent.com/25181517/183061171-0c9ab6a3-0822-45b5-a8ed-76145b3a1823.gif" width="120" />
+</div>
+
+---
+
+<div align="center">
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=140&section=footer&text=Build+Something+Wild&fontSize=32&fontColor=ffffff&animation=fadeIn)
+
+<p>
+  <img src="https://img.shields.io/badge/Made+with-💜+and+Agents-7c3aed?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Zips-untouched-00d084?style=for-the-badge" />
 </p>
 
-<br/>
-
-**⚡ Built for the Next Frontier of Autonomous Agentic Engineering ⚡**  
-<sub>Preserving 100% modular integrity • Zero unpacking required • Plug-and-play everywhere</sub>
+<marquee behavior="alternate" scrollamount="4" style="color:#ec4899;">⭐ Star this repo if a skill saved you an hour ⭐</marquee>
 
 </div>
