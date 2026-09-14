@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 24" width="700" height="24">
+  <defs>
+    <linearGradient id="footerBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00dfd8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="12" x2="700" y2="12" stroke="url(#footerBeam)" stroke-width="2.5">
+    <animate attributeName="stroke-dasharray" values="0,700;700,0;0,700" dur="4s" repeatCount="indefinite" />
+  </line>
+</svg>

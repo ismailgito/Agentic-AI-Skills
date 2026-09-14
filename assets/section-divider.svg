@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 50" width="100%" height="50">
+  <defs>
+    <linearGradient id="beamGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff007f" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00dfd8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00dfd8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffbe0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .section-label { font-family: 'Courier New', monospace; font-size: 12px; font-weight: 900; fill: #8b949e; letter-spacing: 4px; text-transform: uppercase; }
+    .pulse-circle { animation: pulseFade 2s ease-in-out infinite; }
+    @keyframes pulseFade { 0%,100% { r: 3; opacity: 1; } 50% { r: 7; opacity: 0.3; } }
+  </style>
+  <rect width="950" height="50" fill="transparent"/>
+  <!-- Left beam -->
+  <line x1="0" y1="25" x2="350" y2="25" stroke="url(#beamGrad1)" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray" values="0,400;400,0;0,400" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <!-- Center indicator -->
+  <circle cx="475" cy="25" r="4" fill="#00dfd8" class="pulse-circle"/>
+  <!-- Right beam -->
+  <line x1="600" y1="25" x2="950" y2="25" stroke="url(#beamGrad2)" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray" values="0,400;400,0;0,400" dur="3s" repeatCount="indefinite"/>
+  </line>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 95" width="100%" height="95">
+  <defs>
+    <linearGradient id="podGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161e31" />
+      <stop offset="100%" stop-color="#0f1422" />
+    </linearGradient>
+  </defs>
+  <style>
+    <![CDATA[
+    .pod-title { font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 700; fill: #8b949e; letter-spacing: 1.5px; text-transform: uppercase; }
+    .pod-value { font-family: 'Segoe UI', monospace; font-size: 18px; font-weight: 900; fill: #ffffff; letter-spacing: 1px; }
+    .pulse-dot { animation: pulseIndicator 1.8s ease-in-out infinite; }
+    @keyframes pulseIndicator { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+    ]]>
+  </style>
+
+  <!-- Background Base -->
+  <rect width="950" height="95" rx="14" fill="#0f1422" stroke="rgba(0, 223, 216, 0.25)" stroke-width="1.5" />
+
+  <!-- Telemetry Pod 1: Skills -->
+  <g transform="translate(30, 18)">
+    <rect width="200" height="60" rx="10" fill="url(#podGrad)" stroke="rgba(255, 0, 127, 0.45)" stroke-width="1.2"/>
+    <circle cx="22" cy="30" r="4.5" fill="#ff007f" class="pulse-dot"/>
+    <text x="36" y="26" class="pod-title">Domain Skills</text>
+    <text x="36" y="48" class="pod-value">19+ Modules</text>
+  </g>
+
+  <!-- Telemetry Pod 2: Preserved ZIPs -->
+  <g transform="translate(260, 18)">
+    <rect width="200" height="60" rx="10" fill="url(#podGrad)" stroke="rgba(0, 223, 216, 0.45)" stroke-width="1.2"/>
+    <circle cx="22" cy="30" r="4.5" fill="#00dfd8" class="pulse-dot" style="animation-delay: 0.4s;"/>
+    <text x="36" y="26" class="pod-title">Drop-in ZIPs</text>
+    <text x="36" y="48" class="pod-value">6 Preserved</text>
+  </g>
+
+  <!-- Telemetry Pod 3: Polyglot SDKs -->
+  <g transform="translate(490, 18)">
+    <rect width="200" height="60" rx="10" fill="url(#podGrad)" stroke="rgba(121, 40, 202, 0.45)" stroke-width="1.2"/>
+    <circle cx="22" cy="30" r="4.5" fill="#7928ca" class="pulse-dot" style="animation-delay: 0.8s;"/>
+    <text x="36" y="26" class="pod-title">SDK Runtimes</text>
+    <text x="36" y="48" class="pod-value">8 Languages</text>
+  </g>
+
+  <!-- Telemetry Pod 4: Zero Extraction -->
+  <g transform="translate(720, 18)">
+    <rect width="200" height="60" rx="10" fill="url(#podGrad)" stroke="rgba(255, 190, 11, 0.45)" stroke-width="1.2"/>
+    <circle cx="22" cy="30" r="4.5" fill="#ffbe0b" class="pulse-dot" style="animation-delay: 1.2s;"/>
+    <text x="36" y="26" class="pod-title">Extraction Needed</text>
+    <text x="36" y="48" class="pod-value">0% (Pure ZIPs)</text>
+  </g>
+</svg>

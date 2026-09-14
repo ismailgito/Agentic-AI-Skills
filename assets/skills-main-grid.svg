@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 260" width="100%" height="260">
+  <defs>
+    <linearGradient id="folderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f">
+        <animate attributeName="stop-color" values="#ff007f;#7928ca;#00dfd8;#ffbe0b;#ff007f" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00dfd8">
+        <animate attributeName="stop-color" values="#00dfd8;#ffbe0b;#ff007f;#7928ca;#00dfd8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="fGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .f-card { fill: #0f1422; stroke-width: 1.2; }
+    .f-title { font-family: 'Courier New', monospace; font-size: 10px; font-weight: 700; fill: #e6edf3; }
+    .f-desc { font-family: 'Segoe UI', sans-serif; font-size: 8px; fill: #8b949e; }
+    .f-icon { font-size: 16px; }
+    .f-badge { font-family: 'Courier New', monospace; font-size: 7px; font-weight: 700; fill: #0d1117; }
+    .f-ping { animation: fPing 2.5s ease-in-out infinite; }
+    .f-scan { stroke-dasharray: 4 3; animation: fScan 3s linear infinite; }
+    @keyframes fPing { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+    @keyframes fScan { to { stroke-dashoffset: -14; } }
+  </style>
+
+  <rect width="950" height="260" rx="14" fill="#080b13" stroke="rgba(121,40,202,0.25)" stroke-width="1"/>
+  <text x="475" y="24" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" font-weight="900" fill="url(#folderGlow)" letter-spacing="3">📂 SKILLS-MAIN ENGINE — 16 SUBFOLDERS + 3 ZIPS</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(20, 45)">
+    <!-- 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ff007f"/>
+      <text x="8" y="17" class="f-icon">🎨</text><text x="28" y="17" class="f-title">algorithmic-art</text>
+      <text x="28" y="30" class="f-desc">Generative art + templates</text>
+      <circle cx="160" cy="10" r="3" fill="#ff007f" class="f-ping"/>
+    </g>
+    <!-- 2 -->
+    <g transform="translate(185, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#7928ca"/>
+      <text x="8" y="17" class="f-icon">🎯</text><text x="28" y="17" class="f-title">brand-guidelines</text>
+      <text x="28" y="30" class="f-desc">Brand styling + colors</text>
+      <circle cx="160" cy="10" r="3" fill="#7928ca" class="f-ping" style="animation-delay:0.3s"/>
+    </g>
+    <!-- 3 -->
+    <g transform="translate(370, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#00dfd8"/>
+      <text x="8" y="17" class="f-icon">🔌</text><text x="28" y="17" class="f-title">claude-api</text>
+      <text x="28" y="30" class="f-desc">8 lang SDKs + reference</text>
+      <rect x="120" y="4" width="42" height="14" rx="4" fill="#00dfd8"/>
+      <text x="141" y="14" class="f-badge">8 SDK</text>
+    </g>
+    <!-- 4 -->
+    <g transform="translate(555, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ffbe0b"/>
+      <text x="8" y="17" class="f-icon">📝</text><text x="28" y="17" class="f-title">doc-coauthoring</text>
+      <text x="28" y="30" class="f-desc">Iterative doc co-write</text>
+      <circle cx="160" cy="10" r="3" fill="#ffbe0b" class="f-ping" style="animation-delay:0.6s"/>
+    </g>
+    <!-- 5 -->
+    <g transform="translate(740, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ff007f"/>
+      <text x="8" y="17" class="f-icon">🖥️</text><text x="28" y="17" class="f-title">frontend-design</text>
+      <text x="28" y="30" class="f-desc">UI/UX guidelines</text>
+      <circle cx="160" cy="10" r="3" fill="#ff007f" class="f-ping" style="animation-delay:0.9s"/>
+    </g>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(20, 95)">
+    <g transform="translate(0, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#00dfd8"/>
+      <text x="8" y="17" class="f-icon">📢</text><text x="28" y="17" class="f-title">internal-comms</text>
+      <text x="28" y="30" class="f-desc">Newsletters + FAQs</text>
+    </g>
+    <g transform="translate(185, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#7928ca"/>
+      <text x="8" y="17" class="f-icon">🧩</text><text x="28" y="17" class="f-title">mcp-builder</text>
+      <text x="28" y="30" class="f-desc">MCP server toolkit</text>
+    </g>
+    <g transform="translate(370, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ff007f"/>
+      <text x="8" y="17" class="f-icon">📄</text><text x="28" y="17" class="f-title">pdf</text>
+      <text x="28" y="30" class="f-desc">PDF forms + extraction</text>
+    </g>
+    <g transform="translate(555, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ffbe0b"/>
+      <text x="8" y="17" class="f-icon">📊</text><text x="28" y="17" class="f-title">pptx</text>
+      <text x="28" y="30" class="f-desc">PowerPoint automation</text>
+    </g>
+    <g transform="translate(740, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#00dfd8"/>
+      <text x="8" y="17" class="f-icon">⚗️</text><text x="28" y="17" class="f-title">skill-creator</text>
+      <text x="28" y="30" class="f-desc">Author + eval + package</text>
+    </g>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(20, 145)">
+    <g transform="translate(0, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#7928ca"/>
+      <text x="8" y="17" class="f-icon">🎭</text><text x="28" y="17" class="f-title">slack-gif-creator</text>
+      <text x="28" y="30" class="f-desc">GIF + frame composer</text>
+    </g>
+    <g transform="translate(185, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ff007f"/>
+      <text x="8" y="17" class="f-icon">🕸️</text><text x="28" y="17" class="f-title">web-artifacts</text>
+      <text x="28" y="30" class="f-desc">Shadcn + bundler</text>
+    </g>
+    <g transform="translate(370, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ffbe0b"/>
+      <text x="8" y="17" class="f-icon">🧪</text><text x="28" y="17" class="f-title">webapp-testing</text>
+      <text x="28" y="30" class="f-desc">E2E + Playwright</text>
+    </g>
+    <g transform="translate(555, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#00dfd8"/>
+      <text x="8" y="17" class="f-icon">📈</text><text x="28" y="17" class="f-title">xlsx</text>
+      <text x="28" y="30" class="f-desc">Spreadsheet + formulas</text>
+    </g>
+    <g transform="translate(740, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#7928ca"/>
+      <text x="8" y="17" class="f-icon">🎨</text><text x="28" y="17" class="f-title">UI-UX Desinger</text>
+      <text x="28" y="30" class="f-desc">Design system skill</text>
+    </g>
+  </g>
+
+  <!-- Row 4: remaining + Landing page -->
+  <g transform="translate(20, 195)">
+    <g transform="translate(0, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ffbe0b"/>
+      <text x="8" y="17" class="f-icon">🚀</text><text x="28" y="17" class="f-title">Landing-page</text>
+      <text x="28" y="30" class="f-desc">Landing page contents</text>
+    </g>
+    <!-- 3 ZIPs inside skills-main -->
+    <g transform="translate(185, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#00dfd8" stroke-dasharray="4 2"/>
+      <text x="8" y="17" class="f-icon">📦</text><text x="28" y="17" class="f-title" fill="#00dfd8">canvas-design.zip</text>
+      <text x="28" y="30" class="f-desc">2.65 MB • SEALED</text>
+    </g>
+    <g transform="translate(370, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#7928ca" stroke-dasharray="4 2"/>
+      <text x="8" y="17" class="f-icon">📦</text><text x="28" y="17" class="f-title" fill="#7928ca">docx-design.zip</text>
+      <text x="28" y="30" class="f-desc">51.3 KB • SEALED</text>
+    </g>
+    <g transform="translate(555, 0)">
+      <rect width="170" height="42" rx="8" class="f-card" stroke="#ff007f" stroke-dasharray="4 2"/>
+      <text x="8" y="17" class="f-icon">📦</text><text x="28" y="17" class="f-title" fill="#ff007f">theme-factory.zip</text>
+      <text x="28" y="30" class="f-desc">124.7 KB • SEALED</text>
+    </g>
+  </g>
+
+  <!-- Bottom scanning line -->
+  <line x1="0" y1="250" x2="950" y2="250" stroke="url(#folderGlow)" stroke-width="1.2" class="f-scan"/>
+</svg>

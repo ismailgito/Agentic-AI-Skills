@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 290" width="100%" height="290">
+  <defs>
+    <!-- Shifting Multi-Color Neon Gradients -->
+    <linearGradient id="neonPulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f">
+        <animate attributeName="stop-color" values="#ff007f;#7928ca;#00dfd8;#ffbe0b;#ff007f" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="35%" stop-color="#7928ca">
+        <animate attributeName="stop-color" values="#7928ca;#00dfd8;#ffbe0b;#ff007f;#7928ca" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#00dfd8">
+        <animate attributeName="stop-color" values="#00dfd8;#ffbe0b;#ff007f;#7928ca;#00dfd8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ffbe0b">
+        <animate attributeName="stop-color" values="#ffbe0b;#ff007f;#7928ca;#00dfd8;#ffbe0b" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffbe0b" />
+      <stop offset="50%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="gridHorizon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.0" />
+      <stop offset="40%" stop-color="#00dfd8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Striped Mask for Synthwave Sun -->
+    <mask id="sunStripes">
+      <rect width="950" height="290" fill="#ffffff" />
+      <rect x="0" y="105" width="950" height="3" fill="#000000" />
+      <rect x="0" y="112" width="950" height="4" fill="#000000" />
+      <rect x="0" y="120" width="950" height="5" fill="#000000" />
+      <rect x="0" y="129" width="950" height="6" fill="#000000" />
+      <rect x="0" y="139" width="950" height="8" fill="#000000" />
+    </mask>
+
+    <!-- Cyberpunk Starfield & Matrix Dots -->
+    <pattern id="matrixPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.75" fill="#00dfd8" fill-opacity="0.18" />
+    </pattern>
+  </defs>
+
+  <style>
+    <![CDATA[
+    .hero-main-title {
+      font-family: 'Courier New', Courier, monospace, 'Segoe UI', system-ui, sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      fill: url(#neonPulse);
+      letter-spacing: 5px;
+      filter: drop-shadow(0 0 16px rgba(255, 0, 127, 0.5));
+    }
+    .hero-tagline {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      fill: #a0aec0;
+      letter-spacing: 2.2px;
+    }
+    .laser-scan {
+      stroke-dasharray: 8 6;
+      animation: laserScroll 12s linear infinite;
+    }
+    .sun-pulse {
+      animation: sunGlow 4s ease-in-out infinite alternate;
+    }
+    .term-box {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 11.5px;
+      fill: #00dfd8;
+    }
+    .cursor-blink {
+      animation: blink 0.9s infinite;
+    }
+    .antenna-wave {
+      animation: ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+    @keyframes laserScroll { to { stroke-dashoffset: 1000; } }
+    @keyframes sunGlow {
+      0% { transform: scale(0.98); opacity: 0.85; }
+      100% { transform: scale(1.02); opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes ripple {
+      0% { r: 2; opacity: 1; }
+      100% { r: 16; opacity: 0; }
+    }
+    ]]>
+  </style>
+
+  <!-- Deep Background & Outer Rounded Card -->
+  <rect width="950" height="290" rx="20" fill="#080b13" stroke="rgba(121, 40, 202, 0.45)" stroke-width="2" />
+  <rect width="950" height="290" rx="20" fill="url(#matrixPattern)" />
+
+  <!-- Retro Glowing Synthwave Sun (Centered Background) -->
+  <g mask="url(#sunStripes)" transform="translate(475, 120)" class="sun-pulse">
+    <circle cx="0" cy="0" r="70" fill="url(#sunGrad)" opacity="0.6" filter="drop-shadow(0 0 25px #ff007f)" />
+  </g>
+
+  <!-- 3D Perspective Grid Horizon -->
+  <rect y="160" width="950" height="130" fill="url(#gridHorizon)" />
+  <!-- Perspective Convergence Lines -->
+  <g stroke="#7928ca" stroke-width="0.9" stroke-opacity="0.35">
+    <line x1="475" y1="160" x2="20" y2="290" />
+    <line x1="475" y1="160" x2="140" y2="290" />
+    <line x1="475" y1="160" x2="260" y2="290" />
+    <line x1="475" y1="160" x2="380" y2="290" />
+    <line x1="475" y1="160" x2="570" y2="290" />
+    <line x1="475" y1="160" x2="690" y2="290" />
+    <line x1="475" y1="160" x2="810" y2="290" />
+    <line x1="475" y1="160" x2="930" y2="290" />
+  </g>
+
+  <!-- Horizontal Laser Grid Bars -->
+  <line x1="0" y1="180" x2="950" y2="180" stroke="#7928ca" stroke-width="1.2" stroke-opacity="0.4" />
+  <line x1="0" y1="205" x2="950" y2="205" stroke="#00dfd8" stroke-width="1.4" stroke-opacity="0.5" class="laser-scan" />
+  <line x1="0" y1="235" x2="950" y2="235" stroke="#ff007f" stroke-width="1.6" stroke-opacity="0.6" class="laser-scan" style="animation-direction: reverse;" />
+  <line x1="0" y1="270" x2="950" y2="270" stroke="#ffbe0b" stroke-width="2.0" stroke-opacity="0.7" />
+
+  <!-- LEFT: Interactive Animated Cyber Agent Bot -->
+  <g transform="translate(48, 55)">
+    <!-- Antenna & Radio Wave Transmission -->
+    <line x1="28" y1="12" x2="28" y2="0" stroke="#00dfd8" stroke-width="2" />
+    <circle cx="28" cy="0" r="3" fill="#ff007f" />
+    <circle cx="28" cy="0" r="4" fill="none" stroke="#00dfd8" stroke-width="1.5" class="antenna-wave" />
+
+    <!-- Bot Body & Visor -->
+    <rect x="0" y="14" width="56" height="56" rx="14" fill="#111624" stroke="url(#neonPulse)" stroke-width="2.4" filter="drop-shadow(0 4px 12px rgba(0,223,216,0.3))" />
+    <!-- Glowing Visor Eye -->
+    <rect x="12" y="28" width="32" height="12" rx="6" fill="#080b13" stroke="#00dfd8" stroke-width="1.4" />
+    <circle cx="22" cy="34" r="3" fill="#00dfd8">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="34" cy="34" r="3" fill="#ff007f">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <!-- Mouth Grid -->
+    <line x1="20" y1="52" x2="36" y2="52" stroke="#ffbe0b" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- RIGHT: Triple Holographic Orbiting Core -->
+  <g transform="translate(845, 55)">
+    <rect x="0" y="14" width="56" height="56" rx="14" fill="#111624" stroke="url(#neonPulse)" stroke-width="2.4" filter="drop-shadow(0 4px 12px rgba(255,0,127,0.3))" />
+    <g transform="translate(28, 42)">
+      <!-- Outer Orbit Ring -->
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#00dfd8" stroke-width="1.5" stroke-dasharray="6 3">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite" />
+      </circle>
+      <!-- Middle Orbit Ring -->
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#ff007f" stroke-width="1.5" stroke-dasharray="4 2">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <!-- Glowing Power Core -->
+      <circle cx="0" cy="0" r="4.5" fill="#ffbe0b">
+        <animate attributeName="r" values="3.5;6;3.5" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+
+  <!-- CENTER: Header Branding, Tagline & Live Terminal -->
+  <g text-anchor="middle">
+    <!-- Top Pill Badge -->
+    <rect x="335" y="18" width="280" height="26" rx="13" fill="#111624" stroke="url(#neonPulse)" stroke-width="1.4"/>
+    <text x="475" y="35" font-family="'Segoe UI', monospace" font-size="11" font-weight="900" fill="#00dfd8" letter-spacing="2">⚡ AGENTIC SUPERPOWERS ACTIVE ⚡</text>
+
+    <!-- Main Title -->
+    <text x="475" y="92" class="hero-main-title">CLAUDE SKILLS ECOSYSTEM</text>
+    <text x="475" y="122" class="hero-tagline">MODULAR AGENT CAPABILITIES • INTACT ARCHIVES • PRODUCTION READY</text>
+
+    <!-- Sleek Live Terminal HUD -->
+    <g transform="translate(475, 158)">
+      <rect x="-240" y="-14" width="480" height="28" rx="8" fill="#0b0f19" stroke="#1f293d" stroke-width="1.2" />
+      <circle cx="-224" cy="0" r="3.5" fill="#ff007f" />
+      <circle cx="-214" cy="0" r="3.5" fill="#ffbe0b" />
+      <circle cx="-204" cy="0" r="3.5" fill="#00ff88" />
+      <text x="-188" y="4" text-anchor="start" class="term-box">&gt; claude.dispatch([&quot;mcp-builder&quot;, &quot;pptx&quot;, &quot;frontend-design&quot;])</text>
+      <text x="180" y="4" text-anchor="end" font-family="'Segoe UI', monospace" font-size="11" font-weight="bold" fill="#00ff88">[OK]</text>
+      <rect x="186" y="-6" width="7" height="12" fill="#00dfd8" class="cursor-blink" />
+    </g>
+
+    <!-- Bottom Status Radar Indicator -->
+    <g transform="translate(475, 224)">
+      <circle cx="-205" cy="-4" r="5" fill="#00ff88">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-205" cy="-4" r="11" fill="none" stroke="#00ff88" stroke-width="1.2" stroke-opacity="0.6">
+        <animate attributeName="r" values="6;16;6" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="0" font-family="'Segoe UI', monospace" font-size="12" font-weight="bold" fill="#7ee787" letter-spacing="1.5">LIVE SYSTEM OPERATIONAL • 19+ SKILLS • 6 INTACT ZIPs ARMED</text>
+    </g>
+  </g>
+</svg>
