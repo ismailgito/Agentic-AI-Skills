@@ -41,7 +41,7 @@
 
 | # | Pack | What it unlocks | Vibe |
 |:-:|---|---|---|
-| 1 | [`frontend-design.zip`](frontend-design.zip) | Landing pages, components, responsive UI | ![frontend](https://img.shields.io/badge/-UI-7c3aed?style=flat-square) |
+| 1 | [`hallmark.zip`](hallmark.zip) | Landing pages, components, responsive UI | ![AI Slop reomve ](https://img.shields.io/badge/-UI-7c3aed?style=flat-square) |
 | 2 | [`canvas-design.zip`](canvas-design.zip) | Canvas art, posters, visual experiments | ![canvas](https://img.shields.io/badge/-ART-ff69b4?style=flat-square) |
 | 3 | [`UI-UX Desinger.zip`](UI-UX%20Desinger.zip) | UX flows, wireframes, designer agent *(filename spelled as in the repo)* | ![ux](https://img.shields.io/badge/-UX-00bfff?style=flat-square) |
 | 4 | [`brand-guidelines.zip`](brand-guidelines.zip) | Logos, colors, typography, brand kits | ![brand](https://img.shields.io/badge/-BRAND-f59e0b?style=flat-square) |
